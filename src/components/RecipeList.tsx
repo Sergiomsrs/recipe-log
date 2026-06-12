@@ -39,7 +39,7 @@ export default function RecipeList({
                 >
                     {/* Background gradient on hover */}
                     <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 to-transparent opacity-0 group-hover:opacity-100 rounded-xl transition-opacity duration-300 pointer-events-none"></div>
-                    
+
                     <div className="relative flex items-center justify-between">
                         <div className="flex-1">
                             {/* Número de receta */}
@@ -49,12 +49,12 @@ export default function RecipeList({
                                 </span>
                                 <span className="text-xs font-semibold text-emerald-600 uppercase tracking-wider">Receta</span>
                             </div>
-                            
+
                             {/* Nombre */}
                             <h3 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-emerald-700 transition-colors">
                                 {recipe.name}
                             </h3>
-                            
+
                             {/* Metadatos */}
                             <div className="flex flex-wrap gap-4 text-xs">
                                 <div className="flex items-center gap-1 text-gray-600">
